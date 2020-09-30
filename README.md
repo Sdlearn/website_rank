@@ -1,4 +1,4 @@
-website rank crawler
+website rank crawler-get rank of websites instantly
 ==========
 
 Fetch google PR, sogou PR, baidu rank, alexa rank of a website.
