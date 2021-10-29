@@ -1,11 +1,14 @@
-#encoding=utf-8
+# website crawler and ranker
+# shows google PR, sogou PR, baidu rank, alexa rank of a website
+# encoding=utf-8
 
+# necessary dependencies
 import urllib2
 import sys
 import re
 import cookielib
 
-
+# webpage crawler and ranker logic
 class RankCrawler():
     def __init__(self, site):
         self.site = site.strip()
